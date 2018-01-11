@@ -1,0 +1,35 @@
+/* 全局公用样式 */
+@import '~font-awesome/css/font-awesome.css';
+@import '~element-ui/lib/theme-chalk/index.css';
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+  &-track,
+  &-thumb {
+    border-radius: 999px;
+    border: 5px solid transparent;
+  }
+  &-track {
+    box-shadow: 1px 1px 5px rgba(0,0,0,.5) inset;
+  }
+  &-thumb {
+    min-height: 20px;
+    background-clip: content-box;
+    box-shadow: 0 0 0 5px rgba(0,0,0,.5) inset;
+  }
+  &-corner {
+    background: transparent;
+  }
+}
+
+/**
+ * 自定义的公共类名
+ */
+.t-center {text-align: center;}
+.t-left {text-align: left;}
+.t-right {text-align: right;}
+.fl {float: left;}
+.fr {float: right;}
+.cl {clear: both;}

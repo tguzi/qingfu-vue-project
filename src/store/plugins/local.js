@@ -1,4 +1,4 @@
-const prefix = '[eastown] - '
+const prefix = '[qingfu] - '
 
 export default {
   namespace: '',

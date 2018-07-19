@@ -1,7 +1,7 @@
 {
-  "name": "eastown",
+  "name": "qingfu",
   "version": "1.0.0",
-  "description": "eastown web project",
+  "description": "qingfu vue program",
   "author": "qingfu <642935965@qq.com>",
   "private": true,
   "scripts": {

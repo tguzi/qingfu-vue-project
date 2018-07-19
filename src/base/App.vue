@@ -7,10 +7,6 @@
   export default {
     components: { templateDefault },
     computed: {
-      /**
-       * 系统模板名称
-       * @return {string}
-       */
       templateName () {
         let t = this.$route.meta.t || 'default'
         return {

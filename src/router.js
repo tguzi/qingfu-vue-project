@@ -6,6 +6,7 @@ import Index        from './pages/index.vue'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     { path: '/', component: Login },
     { path: '/login', component: Login },

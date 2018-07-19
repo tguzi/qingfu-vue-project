@@ -1,5 +1,5 @@
 <template>
   <div>
-    <router-link to="/index">点击可查看demo页（src/pages/index.vue）</router-link>
+    <router-link to="/index">1111</router-link>
   </div>
 </template>
